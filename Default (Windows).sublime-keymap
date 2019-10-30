@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+shift+d"], "command": "find_all_under" },
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+]

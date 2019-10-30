@@ -1,0 +1,4 @@
+*.*
+!.gitignore
+!snippets/*.sublime-snippet
+!Default (Windows).sublime-keymap
