@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\usepackage[UTF8]{ctex}      % chinese
-\usepackage{minted}     	 % code
-\usepackage{graphicx}        % multiple figures
-% \usepackage{underscore}    % underscore
+\usepackage[UTF8]{ctex}                      % chinese
+\usepackage[outputdir=.build]{minted}        % code
+\usepackage{graphicx}                        % multiple figures
+% \usepackage{underscore}                    % underscore
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>\usepackage</tabTrigger>

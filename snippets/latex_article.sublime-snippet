@@ -1,0 +1,44 @@
+<snippet>
+<content><![CDATA[
+\documentclass[fleqn,10pt]{olplainarticle}
+% Use option lineno for line numbers 
+\usepackage[UTF8]{ctex}      % chinese
+\usepackage{minted}     	 % code
+\usepackage{graphicx}        % multiple figures
+% \usepackage{underscore}    % underscore
+
+
+\title{Example Article Title}
+
+\author[1]{邓成杞}
+\author[2]{Second Author}
+\affil[1]{Address of first author}
+\affil[2]{Address of second author}
+
+\keywords{Keyword1, Keyword2, Keyword3}
+
+\begin{abstract}
+Please provide an abstract of no more than 300 words. Your abstract should explain the main contributions of your article, and should not contain any material that is not included in the main text. 
+\end{abstract}
+
+\begin{document}
+
+\flushbottom
+\maketitle
+\thispagestyle{empty}
+
+\section{Introduction}
+
+Thanks for using Overleaf to write your article. Your introduction goes here! Some examples of commonly used commands and features are listed below, to help you get started.
+
+
+
+
+\bibliography{sample}
+
+\end{document}
+]]></content>
+<tabTrigger>\template</tabTrigger>
+<description>latex_article</description>
+<scope>text.tex.latex</scope>
+</snippet>
