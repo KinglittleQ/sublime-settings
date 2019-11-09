@@ -1,18 +1,18 @@
 <snippet>
 	<content><![CDATA[
 \begin{figure}[htbp]
-\centering
-\begin{minipage}[t]{${1:0.48}\textwidth}
-\centering
-\includegraphics[width=${2:0.7}\linewidth]{${3}}
-\label{fig:${4}}
-\caption{${5}}
-\end{minipage}
+	\centering
+	\begin{minipage}[t]{${1:0.48}\textwidth}
+	\centering
+	\includegraphics[width=${2:0.7}\linewidth]{${3}}
+	\label{fig:${4}}
+	\caption{${5}}
+	\end{minipage}
 
 \end{figure}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>\begin{figure}:multi</tabTrigger>
+	<tabTrigger>latex_figure_multi</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.tex.latex</scope>
 </snippet>

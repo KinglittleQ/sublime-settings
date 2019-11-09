@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+\begin{table}[htb]
+\centering
+\begin{tabular}{ c|c|c } 
+    \toprule[1.5pt]
+    cell1 & cell2 & cell3 \\ 
+    \midrule
+    cell4 & cell5 & cell6 \\ 
+    cell7 & cell8 & cell9 \\ 
+    \bottomrule[1.2pt]
+    % \hline
+\end{tabular}
+\label{tab:}
+\caption{}
+\end{table}
+]]></content>
+<tabTrigger>latex_table</tabTrigger>
+<description>latex_table</description>
+<scope>text.tex.latex</scope>
+</snippet>

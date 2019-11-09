@@ -1,11 +1,19 @@
 <snippet>
-	<content><![CDATA[
-\begin{minted}[frame=lines, fontsize=\footnotesize]{${1}}
+    <content><![CDATA[
+\begin{minted}[frame=lines, 
+               fontsize=\footnotesize,
+               breaklines=true,
+               breakanywhere=true,
+               autogobble=true,  % remove space
+               showspaces=false,
+               linenos=false,
+               mathescape=true,  % math equation
+            {${1}}
 ${2}
 \end{minted}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>\begin{minted}</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.tex.latex</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>latex_code</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
 </snippet>
